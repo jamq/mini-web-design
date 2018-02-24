@@ -1,0 +1,219 @@
+@font-face {
+  font-family: 'Minecraft';
+  src: url("../fonts/Minecraft.ttf");
+}
+@font-face {
+  font-family: 'Pixel';
+  src: url("../fonts/LLPIXEL3.ttf");
+}
+/*----------Variables Color----------*/
+/*----------Variables Fuentes----------*/
+/*----------Todo----------*/
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans Condensed", sans-serif;
+  box-sizing: border-box;
+}
+
+/*----------Full Page----------*/
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.exterior {
+  width: 100%;
+  height: 100%;
+  background-color: #5fdd9d;
+  float: left;
+}
+
+.interior {
+  width: 80%;
+  height: 80%;
+  position: relative;
+  top: 10%;
+  left: 10%;
+  background-color: #ffffff;
+  float: left;
+}
+
+.izquierda {
+  width: 70%;
+  height: 100%;
+  float: left;
+  background-color: #ffffff;
+}
+
+.derecha {
+  width: 30%;
+  height: 100%;
+  float: left;
+  background-color: #1c6747;
+}
+
+.foto {
+  width: 100%;
+  padding: 18% 0%;
+  float: left;
+  background: url("../img/perfil-02-01.png");
+  background-color: #ffd15d;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.nombre {
+  width: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  float: left;
+  background-color: #ffffff;
+  color: #333333;
+  font-size: 300%;
+  text-align: center;
+}
+
+.barra {
+  width: 100%;
+  height: 1%;
+  float: left;
+  background-color: #1c6747;
+}
+
+.profesion {
+  width: 100%;
+  text-align: center;
+  font-size: 350%;
+  font-weight: bold;
+  padding: 5% 0%;
+  color: #333333;
+}
+
+span {
+  color: #5fdd9d;
+}
+
+.contacto {
+  width: 96%;
+  height: 63%;
+  margin: 2%;
+  background-color: #ffffff;
+  color: #1c6747;
+  float: left;
+}
+
+.c-titulo {
+  width: 100%;
+  font-size: 200%;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 15%;
+}
+
+.c-red {
+  width: 70%;
+  float: left;
+  margin-left: 30%;
+  margin-bottom: 2%;
+}
+.c-red span {
+  margin-left: 5%;
+  color: #333333;
+  font-size: 150%;
+}
+.c-red span:hover {
+  color: #5fdd9d;
+}
+
+.c-logo {
+  width: 10%;
+  padding: 2% 0%;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*----------Slide----------*/
+.slide {
+  display: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.slide-contenedor {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.titulo {
+  color: #333333;
+  font-size: 300%;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 40%;
+  margin: 0% 30%;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #333333;
+}
+
+.numero {
+  color: #333333;
+  font-size: 100%;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.punto {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.activo {
+  background-color: #717171;
+}
+
+.descolorar {
+  -webkit-animation-name: descolorar;
+  -webkit-animation-duration: 1.5s;
+  animation-name: descolorar;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes descolorar {
+  from {
+    opacity: .4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes descolorar {
+  from {
+    opacity: .4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .text {
+    font-size: 11px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
